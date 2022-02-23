@@ -1,0 +1,66 @@
+.title{
+    display:grid;
+    margin: 2rem;
+    color: white;
+    justify-content: center;
+
+
+}
+.sign-in{
+    height: 100%;
+    width:100%;
+;    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1f 1f 1fr;
+    background-color:lightblue;
+}
+.form-fields{
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 1.2rem;
+
+}
+input{
+    width:300px;
+    height: 40px;
+    border: white;
+    border-radius: .3rem;
+    
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+   
+
+
+
+}
+.btn{
+    color: whitesmoke;
+    border:none;
+    border-radius: .3rem;
+    cursor: pointer;
+    box-shadow: 6px 7px 15px 1px rgba($color: grey, $alpha: 1.0);
+    color: slategray;
+    size: 3rem;
+    height: 30px;
+    width: 75px;
+    transition: 0.3 all
+   
+
+    } 
+ .btn:active{
+     box-shadow: 3px 3px 6px 0px rgba($color: darkgrey, $alpha: 1.0);
+
+}
+
+.error{
+    display: flex;
+    font-size: 15px;
+    color: red;
+}
